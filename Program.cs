@@ -8,15 +8,12 @@ namespace StackAndQueue
         {
             Console.WriteLine("Welcome To Stack and Queue Program");
 
-            LinkedListStack linkedListStack = new LinkedListStack();
-            linkedListStack.Push(56);
-            linkedListStack.Push(30);
-            linkedListStack.Push(70);
-            linkedListStack.Display();
-            //linkedListStack.Peek();
-            //linkedListStack.Pop();
-            linkedListStack.IsEmpty();
-            linkedListStack.Display();
+            LinkedListQueue linkedListQueue = new LinkedListQueue();
+            linkedListQueue.Enqueue(56);
+            linkedListQueue.Enqueue(30);
+            linkedListQueue.Enqueue(70);
+            linkedListQueue.Display();
+           
         }
     }
 }
